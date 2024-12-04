@@ -1,0 +1,147 @@
+#main1{
+            position: relative;
+            background-size: cover;
+            height: 500px;
+            background-image: url(images/movie1.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        #main1::before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.526);
+            z-index: 1;
+        }
+        #main2{
+            position: relative;
+            z-index: 2;
+            left: 16%;
+        
+        }
+        
+        #arm{
+            position: relative;
+            opacity: 1;
+        }
+        
+          
+          .rating {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+          }
+        #star {
+            color: red;
+            font-size: 27px;
+          }
+          
+          .rating .score {
+            font-size: 1.5rem;
+            margin-left: 5px;
+          }
+          
+          .rating .votes {
+            font-size: 1rem;
+            margin-left: 10px;
+          }
+          
+          .rate-btn {
+            margin-left: 15px;
+            font-size: 0.9rem;
+          }
+          .moviedetail {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+          }
+          
+          .moviedetail span {
+            background-color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+          }
+        
+        #main3{
+            position: relative;
+            z-index: 1;
+            top: -15%;
+            left: 6%;
+            opacity: 1;
+            color: white;
+        }
+        #rating{
+            background-color:rgb(51,51,51);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #ratebtn{
+            background-color: rgb(255, 255, 255);
+            color: black;
+            position: relative;
+            left: 250px;
+        }
+        #lang{
+            background-color: white;
+            color: #000;
+            border-radius: 4px;
+        }
+        #book{
+            background-color: rgb(248,68,100);
+            color: white;
+            border-radius: 9px;
+            text-decoration: none;
+            padding: 15px 49px;
+            font-size: 17px;
+            position: relative;
+            top: 45px;
+            
+        }
+        #no{
+            color: rgb(248,68,100);
+        }
+        #no{
+            border: #6c757d79 1px solid;
+            padding: 15px 25px;
+            font-size: 16px;
+        }
+        #no1{
+            background-color: #d0d2d474;
+            padding: 5px;
+        }
+        #prev,
+        #next {
+            background-color: #747774;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #more{
+            text-decoration: none;
+            color: rgb(248,68,100);
+        }
+        #revbox{
+            border: 1px solid rgba(154, 150, 150, 0.614);
+            margin-left: 60px;
+        }
+        
+        .movie-card {
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .movie-card img {
+            width: 400px;
+            height: 450px;
+            border-bottom: 3px solid #f8f9fa;
+        }
